@@ -1,0 +1,14 @@
+@use "./variables" as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: v.$background-color;
+  font-family: v.$font !important;
+}
