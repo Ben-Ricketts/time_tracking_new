@@ -25,7 +25,6 @@ img {
 .work {
   background-image: url("../images/icon-work.svg");
   background-color: hsl(15, 100%, 70%);
-  border: 2px solid green;
 }
 
 .excercise {
@@ -55,4 +54,5 @@ img {
 
 .work-box {
   border-radius: 1rem;
+  border: solid 2px green;
 }
