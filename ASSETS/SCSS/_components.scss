@@ -16,45 +16,64 @@ img {
   background-color: v.$box-background;
   padding-top: 20px;
   border-radius: 0.5rem;
-
   .background-div {
     width: 80%;
     height: 30px;
   }
 }
 
-.work {
-  padding-top: 30px;
+.work-background {
   background-image: url("../images/icon-work.svg");
+  background-color: hsl(15, 100%, 70%);
+  padding-top: 30px;
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: hsl(15, 100%, 70%);
   border-radius: 0.6rem;
 }
 
-.excercise {
+.excercise-background {
   background-image: url(../images/icon-exercise.svg);
   background-color: hsl(145, 58%, 55%);
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-radius: 0.6rem;
 }
 
-.play {
+.play-background {
   background-image: url(../images/icon-play.svg);
   background-color: hsl(195, 74%, 62%);
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-radius: 0.6rem;
 }
 
-.social {
+.social-background {
   background-image: url(../images/icon-social.svg);
   background-color: hsl(264, 64%, 52%);
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-radius: 0.6rem;
 }
 
-.study {
+.study-background {
   background-image: url(../images/icon-study.svg);
   background-color: hsl(348, 100%, 68%);
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-radius: 0.6rem;
 }
 
-.self-care {
+.self-care-background {
   background-image: url(../images/icon-self-care.svg);
   background-color: hsl(43, 84%, 65%);
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-radius: 0.6rem;
 }
 
 .work-box {
