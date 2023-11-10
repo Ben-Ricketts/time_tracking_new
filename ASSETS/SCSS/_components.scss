@@ -7,24 +7,29 @@
 img {
   width: 30%;
 }
+.box-container {
+  margin: v.$content-margin;
+}
 
 .box {
-  margin: v.$content-margin;
+  // margin: v.$content-margin;
   background-color: v.$box-background;
+  padding-top: 20px;
+  border-radius: 0.5rem;
+
   .background-div {
-    width: 100%;
+    width: 80%;
     height: 30px;
-    background-position: right;
-    background-repeat: no-repeat;
-    display: block;
-    margin-left: auto;
-    margin-right: 10px;
   }
 }
 
 .work {
+  padding-top: 30px;
   background-image: url("../images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
   background-color: hsl(15, 100%, 70%);
+  border-radius: 0.6rem;
 }
 
 .excercise {
