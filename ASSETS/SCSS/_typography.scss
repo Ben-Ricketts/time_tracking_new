@@ -1,23 +1,56 @@
 @use "./variables" as v;
 
-p,
-h3,
-h2,
-h4 {
+p {
   color: v.$text-color;
 }
+
+// jeremy typography
+.jeremy-box {
+  text-transform: capitalize;
+  p {
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  p:last-child {
+    font-weight: 500;
+    font-size: 2rem;
+    padding-bottom: 100px;
+  }
+}
+
+.jeremy-time {
+  P {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: hsl(235, 45%, 61%);
+  }
+  p:last-child {
+    padding-bottom: 20px;
+  }
+}
+
+// boxes for work, excercise, play etc
 
 .box-content {
   width: 80%;
   margin: 0 auto;
   text-transform: capitalize;
   padding: 20px;
-}
-
-.box-content h3 {
-  font-size: 2rem;
-  width: 100%;
-  border: solid 2px green;
+  p:first-child {
+    margin-bottom: 1.5em;
+    font-weight: 400;
+  }
+  :nth-child(2) {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+  }
+  :nth-child(3) {
+    font-weight: 300;
+    color: hsl(235, 45%, 61%);
+  }
 }
 
 .work-text {
@@ -31,16 +64,9 @@ h4 {
     content: url(../images/icon-ellipsis.svg);
     display: inline-block;
     text-align: right;
-    width: 10%;
+    width: 17%;
   }
 }
-
-// .work-text::after {
-//   content: url(../images/icon-ellipsis.svg);
-//   display: inline-block;
-//   text-align: right;
-//   width: 10%;
-// }
 
 @media (max-width: 800px) {
   .box-content h3 {

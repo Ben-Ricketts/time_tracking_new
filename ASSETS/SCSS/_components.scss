@@ -6,13 +6,29 @@
 
 img {
   width: 30%;
+  margin: 20px;
+  border: 4px solid white;
+  border-radius: 50%;
 }
+
+// jeremy box
+
+.jeremy-box {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 0.6rem;
+}
+
+.jeremy-time {
+  background-color: v.$box-background;
+}
+
+// boxes for work, excercise, play, social, study, selfcare
+
 .box-container {
   margin: v.$content-margin;
 }
 
 .box {
-  // margin: v.$content-margin;
   background-color: v.$box-background;
   padding-top: 20px;
   border-radius: 0.5rem;
@@ -25,58 +41,59 @@ img {
 .work-background {
   background-image: url("../images/icon-work.svg");
   background-color: hsl(15, 100%, 70%);
-  padding-top: 30px;
+  padding-top: 40px;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 95% -7%;
+
   border-radius: 0.6rem;
 }
 
 .excercise-background {
   background-image: url(../images/icon-exercise.svg);
   background-color: hsl(145, 58%, 55%);
-  padding-top: 30px;
+  padding-top: 40px;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 95% 0;
+
   border-radius: 0.6rem;
 }
 
 .play-background {
   background-image: url(../images/icon-play.svg);
   background-color: hsl(195, 74%, 62%);
-  padding-top: 30px;
+  padding-top: 40px;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 95% -6%;
+
   border-radius: 0.6rem;
 }
 
 .social-background {
   background-image: url(../images/icon-social.svg);
   background-color: hsl(264, 64%, 52%);
-  padding-top: 30px;
+  padding-top: 40px;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 95% -13%;
+
   border-radius: 0.6rem;
 }
 
 .study-background {
   background-image: url(../images/icon-study.svg);
   background-color: hsl(348, 100%, 68%);
-  padding-top: 30px;
+  padding-top: 40px;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 95% -6%;
+
   border-radius: 0.6rem;
 }
 
 .self-care-background {
   background-image: url(../images/icon-self-care.svg);
   background-color: hsl(43, 84%, 65%);
-  padding-top: 30px;
+  padding-top: 40px;
   background-repeat: no-repeat;
-  background-position: right top;
-  border-radius: 0.6rem;
-}
+  background-position: 95% -7%;
 
-.work-box {
-  border-radius: 1rem;
-  border: solid 2px green;
+  border-radius: 0.6rem;
 }
