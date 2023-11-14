@@ -21,6 +21,13 @@ img {
   border-radius: 0.6rem;
 }
 
+@media (max-width: 450px) {
+  .jeremy-container {
+    margin-left: 20px;
+    width: 89%;
+  }
+}
+
 // boxes for work, excercise, play, social, study, selfcare
 
 .box-container {

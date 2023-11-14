@@ -17,6 +17,9 @@ p {
     font-size: 2rem;
     padding-bottom: 80px;
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .jeremy-time {
@@ -28,6 +31,11 @@ p {
   p:last-child {
     padding-bottom: 20px;
   }
+}
+
+.jeremy-time p:hover {
+  cursor: pointer;
+  color: white;
 }
 
 // boxes for work, excercise, play etc
@@ -50,6 +58,9 @@ p {
     font-weight: 300;
     color: hsl(235, 45%, 61%);
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -67,6 +78,9 @@ p {
     display: inline-block;
     width: 80%;
     min-width: 5%;
+  }
+  &:hover {
+    cursor: pointer;
   }
 
   &::after {
