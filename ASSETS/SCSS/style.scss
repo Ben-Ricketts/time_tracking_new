@@ -2,3 +2,16 @@
 @use "./components";
 @use "./global";
 @use "./layout";
+
+.box-1 {
+  width: 350px;
+  height: 500px;
+  background-color: green;
+  border: 2px solid yellow;
+}
+
+.box-2 {
+  width: 350px;
+  height: 200px;
+  background-color: red;
+}

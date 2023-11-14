@@ -12,14 +12,13 @@ img {
 }
 
 // jeremy box
-
+.jeremy-container {
+  background-color: v.$box-background;
+  border-radius: 0.6rem;
+}
 .jeremy-box {
   background-color: hsl(246, 80%, 60%);
   border-radius: 0.6rem;
-}
-
-.jeremy-time {
-  background-color: v.$box-background;
 }
 
 // boxes for work, excercise, play, social, study, selfcare
